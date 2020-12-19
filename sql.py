@@ -19,7 +19,7 @@ db_conn.close()
 # 插入数据
 # import pymysql
 #
-# db_conn = pymysql.connect(database='health',host='39.106.10.163',user='root',password='asdf123456A*')
+# db_conn = pymysql.connect(db='数据库名',host='网站ip',user='用户名',password='密码')
 #
 # db_cursor = db_conn.cursor()
 # try:
@@ -43,7 +43,7 @@ db_conn.close()
 
 # 删除
 # import pymysql
-# db_conn = pymysql.connect(database='health', host='39.106.10.163', user='root', password='asdf123456A*')
+# db_conn = pymysql.connect(db='数据库名',host='网站ip',user='用户名',password='密码')
 # db_cursor = db_conn.cursor()
 # try:
 #     sql = "delete from test where name=%s;"
@@ -62,7 +62,7 @@ db_conn.close()
 
 # 更新
 # import pymysql
-# db_conn = pymysql.connect(database='health', host='39.106.10.163', user='root', password='asdf123456A*')
+# db_conn = pymysql.connect(db='数据库名',host='网站ip',user='用户名',password='密码')
 # db_cursor = db_conn.cursor()
 # try:
 #     sql = "update test set name=%s where id=%s;;"
